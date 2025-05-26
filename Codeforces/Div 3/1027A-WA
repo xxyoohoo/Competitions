@@ -2,7 +2,7 @@
 using namespace std;
 void run(int x)
 {
-    if (round(sqrt(x))*round(sqrt(x))!=x){cout << -1 << '\n';return;}
+    if (pow(round(sqrt(x)),2)!=x){cout << -1 << '\n';return;}
     for (int b=1;b<=round(sqrt(x));++b)
     {
         int a=round(sqrt(x))-b;
